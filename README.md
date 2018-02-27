@@ -2,3 +2,5 @@
 
 Detects your location and pull the weather data accordingly from a weather database. Preview:
 https://htmlpreview.github.io/?https://github.com/sweetsourire/weather_app/blob/master/index.html
+
+Diverse color set will be shown when user hits refresh button.
