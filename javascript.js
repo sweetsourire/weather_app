@@ -13,11 +13,11 @@ var temperature;
 
 $(document).ready(function(){
 	$.ajax({
-		url: "https://freegeoip.net/json/",
+		url: "http://api.ipstack.com/67.254.16.39?access_key=5e57d4c12b7c4f5385077c78c5c9fb68",
 		cache: false,
 		data: 'jsonp',
 		success: function(data){
-			var http = "https://api.darksky.net/forecast/c94fdc9beee437cd2699f5601dda03ea/"+data.latitude+","+data.longitude;
+			var http = "https://api.darksky.net/forecast/43fdf11c01cc082e76946f315a89d013/"+data.latitude+","+data.longitude;
 			//data sort out
 			$.ajax({
 				url: http,
